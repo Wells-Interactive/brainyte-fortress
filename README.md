@@ -255,11 +255,8 @@ The separation allows the broader Brainyte Fortress platform and the operating-s
 
 # 🏢 Wells Interactive
 
-**Brainyte Fortress™ is a Wells Interactive Services Ltd. project.**
+**Brainyte Fortress is a Wells Interactive Services Ltd. project.**
 
-Company:
-
-**Wells Interactive Services Ltd.**
 
 GitHub:
 
@@ -305,8 +302,6 @@ A secure-device ecosystem built around:
 
 * **Wells Interactive Github:** [/Wells-Interactive](https://github.com/Wells-Interactive)
 * **AfOS Android™:** [brainyte-AfOS](https://github.com/Wells-Interactive/brainyte-AfOS)
-
-**Official Wells Interactive website:** *To be added once the official domain is confirmed.*
 
 ---
 
