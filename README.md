@@ -267,6 +267,9 @@ Official company website:
 
 **[http://www.wellsint.site]**
 
+Official Brainyte URL:
+**[http://www.wellsint.site/Brainyte]**
+
 ---
 
 # 📜 Intellectual Property & Copyright
