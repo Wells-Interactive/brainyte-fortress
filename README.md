@@ -1,8 +1,8 @@
-# 🛡️ Brainyte Fortress™
+# 🛡️ Brainyte Fortress
 
 ### **Your Phone. Your Fortress.**
 
-**Brainyte Fortress™** is a secure-device platform engineered to bring together hardened mobile software, identity, communications, cloud services, administration, and enterprise security into one unified ecosystem.
+**Brainyte Fortress** is a secure-device platform engineered to bring together hardened mobile software, identity, communications, cloud services, administration, and enterprise security into one unified ecosystem.
 
 ---
 
@@ -12,7 +12,7 @@ Brainyte Fortress is built as a platform rather than a single application.
 
 ```text
                          ┌─────────────────────────┐
-                         │    BRAINYTE FORTRESS™   │
+                         │    BRAINYTE FORTRESS   │
                          │   Your Phone. Fortress.  │
                          └────────────┬────────────┘
                                       │
@@ -275,7 +275,7 @@ Official company website:
 © **2026 Wells Interactive Services Ltd.**
 **All Rights Reserved.**
 
-Brainyte Fortress™, AfOS Android™, Fortress Mobile™, Fortress Cloud™, Fortress Admin™, Fortress Mail™, Fortress Identity™ and Fortress Enterprise™ are proprietary project names and/or intellectual property of **Wells Interactive Services Ltd.**, to the extent applicable.
+Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity and Fortress Enterprise are proprietary project names and/or intellectual property of **Wells Interactive Services Ltd.**, to the extent applicable.
 
 ### Proprietary Software
 
