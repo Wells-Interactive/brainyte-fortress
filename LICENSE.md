@@ -45,7 +45,7 @@ Except where expressly authorized in writing by Wells Interactive, you may not:
 
 ## 4. Source Code, AOSP, and Third-Party Components
 
-Brainyte Fortress™ and AfOS Android™ incorporate, depend upon, or are derived in part from software developed by third parties, including the **Android Open Source Project (AOSP)**.
+Brainyte Fortress and AfOS Android™ incorporate, depend upon, or are derived in part from software developed by third parties, including the **Android Open Source Project (AOSP)**.
 
 ### 4.1 AOSP Components
 
