@@ -52,7 +52,7 @@ Brainyte Fortress is built as a platform rather than a single application.
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ab91411f-3e24-44b3-a9cf-b9e1369d5b72" />
 
 **AfOS Android™ — Fortress Operating System** is the operating-system foundation of Brainyte Fortress.
-<img src="assets/AfOS_boot_animation.gif" alt="AfOS Android boot animation" width="220">
+<img src="assets/AfOS_boot_animation.gif" alt="AfOS Android boot animation" width="300">
 AfOS is **not designed as a single-device ROM**.
 
 Its fundamental architecture is:
