@@ -255,3 +255,4 @@ https://github.com/Wells-Interactive/brainyte-AfOS
 **© 2026 Wells Interactive Services Ltd.**  
 **All Rights Reserved.**
 
+Unauthorized copying, redistribution, publication, or commercial use is prohibited except where expressly permitted by this License or another applicable written license.
