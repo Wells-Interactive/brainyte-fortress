@@ -44,7 +44,7 @@ Brainyte Fortress is built as a platform rather than a single application.
 | **Fortress Mail**       | Secure communications and mail services                 |
 | **Fortress Identity**   | Identity, authentication and access infrastructure      |
 | **Fortress Enterprise** | Enterprise deployment and management capabilities       |
-| **AfOS Android™**       | The hardened Android/AOSP operating-system   |
+| **AfOS Android**       | The hardened Android/AOSP operating-system   |
 
 ---
 
@@ -79,6 +79,16 @@ Its fundamental architecture is:
 ```
 
 This approach allows AfOS to evolve independently from individual hardware platforms while maintaining explicit device adaptations where hardware differences require them.
+
+---
+
+## Build strategy
+
+Initial development stack:
+
+**Linux + CMake + Ninja + GCC/Clang + Python**
+
+The exact AOSP build integration will be introduced incrementally; this foundation does not pretend that a complete production AOSP tree is already present.
 
 ---
 

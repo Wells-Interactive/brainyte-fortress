@@ -1,4 +1,4 @@
-# BRAINYTE FORTRESS™
+# BRAINYTE FORTRESS
 ## PROPRIETARY SOFTWARE LICENSE
 
 **Copyright © 2026 Wells Interactive Services Ltd.**  
@@ -10,7 +10,7 @@
 
 This software, including its source code, object code, architecture, documentation, designs, configuration, build systems, interfaces, artwork, and associated materials (collectively, the **"Software"**), is proprietary intellectual property of **Wells Interactive Services Ltd.** ("Wells Interactive").
 
-Brainyte Fortress™, AfOS Android™, Fortress Mobile™, Fortress Cloud™, Fortress Admin™, Fortress Mail™, Fortress Identity™, and Fortress Enterprise™ are proprietary names and/or trademarks of Wells Interactive Services Ltd., to the extent applicable.
+Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity™, and Fortress Enterprise™ are proprietary names and/or trademarks of Wells Interactive Services Ltd., to the extent applicable.
 
 No ownership rights are transferred by providing access to the Software.
 
@@ -45,7 +45,7 @@ Except where expressly authorized in writing by Wells Interactive, you may not:
 
 ## 4. Source Code, AOSP, and Third-Party Components
 
-Brainyte Fortress and AfOS Android™ incorporate, depend upon, or are derived in part from software developed by third parties, including the **Android Open Source Project (AOSP)**.
+Brainyte Fortress and AfOS Android, depend upon, or are derived in part from software developed by third parties, including the **Android Open Source Project (AOSP)**.
 
 ### 4.1 AOSP Components
 
@@ -151,7 +151,7 @@ Nothing in this section prevents legitimate security research conducted with app
 
 ## 8. Trademarks
 
-Nothing in this License grants permission to use the Brainyte Fortress™, AfOS Android™, Fortress Mobile™, Fortress Cloud™, Fortress Admin™, Fortress Mail™, Fortress Identity™, or Fortress Enterprise™ names, logos, marks, or branding except as expressly authorized by Wells Interactive.
+Nothing in this License grants permission to use the Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity, or Fortress Enterprise names, logos, marks, or branding except as expressly authorized by Wells Interactive.
 
 Use of the Software does not grant permission to represent a product as an official Brainyte Fortress or Wells Interactive product.
 
@@ -239,8 +239,12 @@ If a provision of this License is found to be unenforceable, the remaining provi
 
 **Wells Interactive Services Ltd.**
 
+Email: wellsintltd@gmail.com, customerservice@wellsint.site
+[Website](http://www.wellsint.site) 
+[Brainyte](http://www.wellsint.site/brainyte)
+
 Brainyte Fortress  
-AfOS Android™
+AfOS Android
 
 GitHub:  
 https://github.com/Wells-Interactive
