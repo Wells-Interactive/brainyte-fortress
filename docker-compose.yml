@@ -1,0 +1,3 @@
+services:
+  # Development service placeholders.
+  # Production infrastructure must use private networking and managed secrets.
