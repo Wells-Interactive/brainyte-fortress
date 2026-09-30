@@ -10,7 +10,7 @@
 
 This software, including its source code, object code, architecture, documentation, designs, configuration, build systems, interfaces, artwork, and associated materials (collectively, the **"Software"**), is proprietary intellectual property of **Wells Interactive Services Ltd.** ("Wells Interactive").
 
-Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity™, and Fortress Enterprise™ are proprietary names and/or trademarks of Wells Interactive Services Ltd., to the extent applicable.
+Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity, and Fortress Enterprise are proprietary names and/or trademarks of Wells Interactive Services Ltd., to the extent applicable.
 
 No ownership rights are transferred by providing access to the Software.
 

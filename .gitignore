@@ -1,21 +1,236 @@
-# Docs and Temp files
-/docs
-/mail
-/database
-/infr*
+# ==========================================================================
+# Brainyte Fortress
+# Wells Interactive Services Ltd.
+#
+# Purpose: exclude build output, dependencies, secrets, local tooling and
+# machine-specific files.
+#
+# This file MUST NOT exclude first-party source code, documentation,
+# migrations, tests, contracts or configuration templates. Platform source and
+# documentation are tracked.
+# ==========================================================================
 
+
+# --------------------------------------------------------------------------
+# Secrets and credentials — never commit (INSTRUCTIONS §12)
+# --------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+*.der
+*.asc
+*.gpg
+*.kdbx
+id_rsa*
+id_ed25519*
+secrets.yml
+secrets.yaml
+secrets.json
+!**/secrets/*.example
+!**/secrets/*.template
+
+# Secret material, while allowing infrastructure/secrets/ references to be tracked
+infrastructure/secrets/*
+!infrastructure/secrets/.gitkeep
+!infrastructure/secrets/*.example
+!infrastructure/secrets/*.template
+!infrastructure/secrets/README.md
+
+
+# --------------------------------------------------------------------------
+# Dependencies and package-manager caches
+# --------------------------------------------------------------------------
+node_modules/
+vendor/
+.bower_components/
+.pnpm-store/
+.yarn/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.cargo/registry/
+.cargo/git/
+
+
+# --------------------------------------------------------------------------
+# Build output
+# --------------------------------------------------------------------------
+build/
+dist/
+out/
+target/
+bin/
+obj/
+.gradle/
+.cache/
+.next/
+.nuxt/
+.output/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.class
+*.jar
+*.apk
+*.aab
+*.aosp
+*.img
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.iso
+
+
+# --------------------------------------------------------------------------
+# Test, coverage and reports
+# --------------------------------------------------------------------------
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+test-results/
+playwright-report/
+report.html
+
+
+# --------------------------------------------------------------------------
+# Android / AfOS build artifacts
+# --------------------------------------------------------------------------
+# NOTE: AfOS Android source is NOT part of this repository. If AOSP build
+# output ever appears, it is ignored here and never committed.
+*.ap_
+*.dex
+*.vdex
+*.odex
+*.oem
+*.res
+local.properties
+output.json
+android/fortress/local.properties
+afos-android/
+
+
+# --------------------------------------------------------------------------
+# Infrastructure state (Terraform, Vagrant, local overrides)
+# --------------------------------------------------------------------------
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.vagrant/
+ansible/inventory
+
+
+# --------------------------------------------------------------------------
+# Logs, temporary files and caches
+# --------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+.*.sw[a-p]
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+._*
+.directory
+.Trash-*
+.cache/
+
+
+# --------------------------------------------------------------------------
+# Local IDE / editor configuration and machine-specific files
+# --------------------------------------------------------------------------
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+*.code-workspace
+.project
+.classpath
+.settings/
+nbproject/
+*.launch
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+.history/
+.session/
+.zed/
+
+
+# --------------------------------------------------------------------------
+# Local environment and machine overrides
+# --------------------------------------------------------------------------
+docker-compose.override.yml
+docker-compose.local.yml
+*.local.yml
+*.local.yaml
+.env.local
+Makefile.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+
+# --------------------------------------------------------------------------
+# Working documents
+# Kept out of the public repository, present locally for development.
+# --------------------------------------------------------------------------
 INSTRUCTIONS.md
-
-# Admin
-/admin
-
-
-#Android
-
-/android
-/packages
-
 ZAQEN.md
-INSTRUCTIONS.md
-/home/mrwellslife/Downloads/Brainyte_Fortress_Complete_Architecture.odt
 Brainyte_Fortress_Complete_Architecture.odt
+
+# --------------------------------------------------------------------------
+# Notes
+# --------------------------------------------------------------------------
+# First-party source, documentation, contracts, migrations and tests are
+# intentionally TRACKED. No pattern above may exclude: assets/ backend/ admin/
+# android/ database/ docs/ infrastructure/ mail/ scripts/ shared/ tests/
+# or any *.md documentation file.
+#
+# Brainyte_Fortress_Complete_Architecture.odt 
+#
+# The following are deliberately is tracked:
+#   .env            - runtime configuration with real values
+#   infrastructure/secrets/*  - secret material, references only
+#   build output    - regenerated, never committed
+# - AfOS Android is a separate repository (INSTRUCTIONS)
+/home/mrwellslife/Downloads/Brainyte_Fortress_Complete_Architecture.odt

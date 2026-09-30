@@ -1,0 +1,7 @@
+openapi: 3.0.3
+info:
+  title: Brainyte Fortress API
+  version: 1.0.0
+servers:
+  - url: https://api.fortress.brainyte.com/api/v1
+paths: {}

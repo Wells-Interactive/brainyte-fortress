@@ -1,0 +1,36 @@
+# Normalize line endings for text files in the repository and working tree.
+* text=auto eol=lf
+
+*.md      text diff=markdown
+*.txt     text
+*.yml     text
+*.yaml    text
+*.json    text
+*.toml    text
+*.rs      text
+*.kt      text
+*.java    text
+*.xml     text
+*.sql     text
+*.sh      text eol=lf
+*.py      text eol=lf
+*.js      text eol=lf
+*.ts      text eol=lf
+*.php     text eol=lf
+
+# Never rewrite line endings in binary files.
+*.odt     binary
+*.gif     binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.webp    binary
+*.ico     binary
+*.pdf     binary
+*.zip     binary
+*.gz      binary
+*.apk     binary
+*.jar     binary
+*.so      binary
+*.bin     binary
+*.img     binary

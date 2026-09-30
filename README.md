@@ -1,7 +1,5 @@
 # 🛡️ Brainyte Fortress
 
-### **Your Phone. Your Fortress.**
-
 **Brainyte Fortress** is a secure-device platform engineered to bring together hardened mobile software, identity, communications, cloud services, administration, and enterprise security into one unified ecosystem.
 
 ---
@@ -28,7 +26,7 @@ Brainyte Fortress is built as a platform rather than a single application.
              │
              ▼
        ┌───────────────────────┐
-       │   AfOS Android™       │
+        │   AfOS Android        │
        │ Fortress Operating    │
        │ System                │
        └───────────────────────┘
@@ -44,13 +42,14 @@ Brainyte Fortress is built as a platform rather than a single application.
 | **Fortress Mail**       | Secure communications and mail services                 |
 | **Fortress Identity**   | Identity, authentication and access infrastructure      |
 | **Fortress Enterprise** | Enterprise deployment and management capabilities       |
-| **AfOS Android**       | The hardened Android/AOSP operating-system   |
+| **AfOS Android**        | The hardened Android/AOSP operating-system              |
 
 ---
 
-# 🔐 AfOS Android™
-**AfOS Android™ — Fortress Operating System** is the operating-system of Brainyte Fortress.
-<img src="assets/AfOS_boot_animation.gif" alt="AfOS Android boot animation" width="300">
+
+# 🔐 AfOS Android
+**AfOS Android — Fortress Operating System** is the operating-system of Brainyte Fortress.
+<img src="assets/AfOS_boot_animation.gif" alt="AfOS Android" width="300">
 
 
 AfOS is **not designed as a single-device ROM**.
@@ -311,13 +310,13 @@ A secure-device ecosystem built around:
 ## 🔗 Project Links
 
 * **Wells Interactive Github:** [/Wells-Interactive](https://github.com/Wells-Interactive)
-* **AfOS Android™:** [brainyte-AfOS](https://github.com/Wells-Interactive/brainyte-AfOS)
+* **AfOS Android:** [brainyte-AfOS](https://github.com/Wells-Interactive/brainyte-AfOS)
 
 ---
 
 <div align="center">
 
-### 🛡️ Brainyte Fortress™
+### 🛡️ Brainyte Fortress
 
 **Your Phone. Your Fortress.**
 
