@@ -58,25 +58,6 @@ Its fundamental architecture is:
 
 > **One AfOS platform, designed for maximum hardware portability, with device-specific hardware adaptation layers and a continuously expanding supported-device matrix.**
 
-```text
-                         ┌──────────────────┐
-                         │   AfOS Platform  │
-                         └────────┬─────────┘
-                                  │
-                         Stable Interfaces
-                                  │
-                         ┌────────▼─────────┐
-                         │       HAL        │
-                         └────────┬─────────┘
-                                  │
-                    Device Adaptation Layer
-                         ┌────────┴────────┐
-                         │                 │
-                         ▼                 ▼
-                    itel A18s        Redmi 17 4G
-                      ARM32              ARM64
-```
-
 This approach allows AfOS to evolve independently from individual hardware platforms while maintaining explicit device adaptations where hardware differences require them.
 
 ---
@@ -111,13 +92,6 @@ Hardware specifications that have not yet been verified are intentionally marked
 
 ---
 
-
----
-
-# ⚙️ Technology Foundation
-
-AfOS Android is being developed around Android/AOSP while maintaining a distinct AfOS architecture and security layer.
-
 ### Primary languages
 
 * **C** — kernel-facing components, drivers and low-level hardware interfaces
@@ -127,7 +101,6 @@ AfOS Android is being developed around Android/AOSP while maintaining a distinct
 * **Python** — development and testing utilities
 * **CMake / Ninja** — initial portable development/build infrastructure
 
-
 ---
 
 # 🚧 Current Development Phase
@@ -136,13 +109,6 @@ AfOS Android is being developed around Android/AOSP while maintaining a distinct
 
 Brainyte Fortress is currently in the **software foundation and implementation phase**.
 
-The immediate objective is to build the AfOS platform and its device abstraction architecture **before attempting physical-device bring-up**.
-
-No device should be flashed simply because a device target exists in the repository.
-
-A physical image must exist, be validated, and have a documented bring-up procedure first.
-
----
 
 # 🧪 Development & Testing
 
@@ -171,34 +137,6 @@ Reference / Virtual Testing
     ↓
 Device Bring-Up
 ```
-
----
-
-# 🔒 Security by Architecture
-
-Security is not intended to be an application-level feature added at the end.
-
-AfOS is designed around layered security:
-
-```text
-Applications
-     ↓
-Android Framework
-     ↓
-AfOS Services
-     ↓
-Policy Engine
-     ↓
-Authorization
-     ↓
-SELinux
-     ↓
-Kernel
-     ↓
-Hardware Security
-```
-
-Where hardware capabilities differ, AfOS must expose the actual capability rather than falsely assuming that every device provides the same security hardware.
 
 ---
 
@@ -265,7 +203,7 @@ Official Brainyte URL:
 
 # Infrastructure Sponsor
 AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
-<a href="https://dartnode.com/"> <img src="https://dartnode.com/assets/dash/images/brand/logo.png" height="48" alt="DartNode"> </a>
+<a href="https://dartnode.com/"> <img src="assets/dartnode.png" height="48" alt="DartNode"> </a>
 
 We thank DartNode for supporting the AfOS project with infrastructure resources.
 
