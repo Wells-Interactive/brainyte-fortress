@@ -232,24 +232,6 @@ Each device is tracked independently for:
 * verified boot
 * vendor dependencies
 
-Implementation states include:
-
-```text
-UNKNOWN
-PLANNED
-STUB
-IMPLEMENTED
-TESTED
-VERIFIED
-```
-
-A capability is never marked verified without evidence.
-
----
-
-
-The documentation must describe the actual state of the project and must distinguish implemented functionality from planned functionality.
-
 ---
 
 # 🛰️ AfOS Android Repository
@@ -279,6 +261,14 @@ Official Brainyte URL:
 **[http://www.wellsint.site/Brainyte]**
 
 ---
+
+
+### Infrastructure Sponsor
+AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
+<a href="https://dartnode.com/"> <img src="https://dartnode.com/assets/dash/images/brand/logo.png" height="48" alt="DartNode"> </a>
+
+We thank DartNode for supporting the AfOS project with infrastructure resources.
+
 
 # 📜 Intellectual Property & Copyright
 
