@@ -226,16 +226,6 @@ Access to this repository does not, by itself, grant any license or ownership in
 
 ---
 
-# 🛡️ Brainyte Fortress
-
-### **Your Phone. Your Fortress.**
-
-A secure-device ecosystem built around:
-
-**Identity. Security. Communications. Administration. Enterprise.**
-
----
-
 ## 🔗 Project Links
 
 * **Wells Interactive Github:** [/Wells-Interactive](https://github.com/Wells-Interactive)
