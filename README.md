@@ -209,7 +209,7 @@ We thank DartNode for supporting the AfOS project with infrastructure resources.
 
 ---
 
-# 📜 Intellectual Property & Copyright
+#### 📜 Intellectual Property & Copyright
 
 © **2026 Wells Interactive Services Ltd.**
 **All Rights Reserved.**
