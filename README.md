@@ -203,9 +203,7 @@ Official Brainyte URL:
 
 # Infrastructure Sponsor
 AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
-<a href="https://dartnode.com/">
-  <img src="assets/images/dartnode.png" height="48" alt="DartNode">
-</a>
+<img height="50" alt="image" src="https://github.com/user-attachments/assets/8688135a-54b1-4438-a506-73f0a5e66e49" />
 
 We thank DartNode for supporting the AfOS project with infrastructure resources.
 
@@ -218,7 +216,7 @@ We thank DartNode for supporting the AfOS project with infrastructure resources.
 
 Brainyte Fortress, AfOS Android, Fortress Mobile, Fortress Cloud, Fortress Admin, Fortress Mail, Fortress Identity and Fortress Enterprise are proprietary project names and/or intellectual property of **Wells Interactive Services Ltd.**, to the extent applicable.
 
-### Proprietary Software
+#### Proprietary Software
 
 Unless a specific file, directory or component is accompanied by an explicit open-source license, the contents of this repository are **proprietary and confidential**.
 
