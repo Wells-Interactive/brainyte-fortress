@@ -200,10 +200,11 @@ Official Brainyte URL:
 
 ---
 
-
 # Infrastructure Sponsor
+
 AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
-<img height="50" alt="image" src="https://github.com/user-attachments/assets/8688135a-54b1-4438-a506-73f0a5e66e49" />
+
+[![DartNode](https://github.com/user-attachments/assets/8688135a-54b1-4438-a506-73f0a5e66e49)](https://dartnode.com/)
 
 We thank DartNode for supporting the AfOS project with infrastructure resources.
 
