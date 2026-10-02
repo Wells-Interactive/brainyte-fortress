@@ -140,12 +140,12 @@ Device Bring-Up
 
 ---
 
-# 🧩 Hardware Portability
+## 🧩 Hardware Portability
 
 AfOS uses capability-oriented interfaces.
 
 
-# 📊 Supported Device Matrix
+#3 📊 Supported Device Matrix
 
 AfOS maintains a continuously expanding device matrix.
 
@@ -204,7 +204,8 @@ Official Brainyte URL:
 
 AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
 
-<a href="https://dartnode.com/"> <img src="assets/images/dartnode.png" height="48" alt="DartNode"></a>
+<a href="https://dartnode.com/"> <img src="assets/images/dartnode.png" height="50" alt="DartNode"></a>
+
 We thank DartNode for supporting the AfOS project with infrastructure resources.
 
 ---
