@@ -191,16 +191,15 @@ GitHub:
 
 [Wells Interactive on GitHub](https://github.com/Wells-Interactive)
 
-Official company website:
+Official company website: **[http://www.wellsint.site]**
 
-**[http://www.wellsint.site]**
-
-Official Brainyte URL:
-**[http://www.wellsint.site/Brainyte]**
+Official Brainyte URL: **[http://www.wellsint.site/Brainyte]**
 
 ---
+
 # Infrastructure Sponsor
 AfOS is supported by open-source infrastructure providers that help make development and build infrastructure available to the project.
+
 <a href="https://dartnode.com/"> <img src="assets/images/dartnode.png" height="50" alt="DartNode"></a>
 
 We thank DartNode for supporting the AfOS project with infrastructure resources.
