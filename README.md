@@ -204,6 +204,8 @@ AfOS is supported by open-source infrastructure providers that help make develop
 
 We thank DartNode for supporting the AfOS project with infrastructure resources.
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
 ---
 
 #### 📜 Intellectual Property & Copyright
