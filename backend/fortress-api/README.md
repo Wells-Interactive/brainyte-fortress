@@ -8,15 +8,6 @@ audit pipeline.
 
 Reference: `Brainyte_Fortress_Complete_Architecture.odt`.
 
-## Responsibilities (to be defined)
-
-- Cloud service architecture and service-to-service interfaces.
-- API versioning and the request/response envelope contract.
-- Error handling and structured error behaviour.
-- Event and message contracts.
-- Persistence boundaries.
-- Logging and audit boundaries.
-- The first minimal service, then automated tests.
 
 ## Planned API surface
 
@@ -58,3 +49,5 @@ admin authenticates
   as an open decision and must be settled before implementation begins.
 - Async/event transport.
 - API gateway and rate-limiting implementation.
+
+

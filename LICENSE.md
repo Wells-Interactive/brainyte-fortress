@@ -26,20 +26,20 @@ This License does not grant a general right to distribute the Software or deriva
 
 ## 3. Restrictions
 
-Except where expressly authorized in writing by Wells Interactive, you may not:
+Except where expressly authorized in writing by Wells Interactive Services  Ltd, you may not:
 
-1. sell, rent, lease, sublicense, or commercially distribute the Software;
-2. publish or redistribute the source code;
-3. mirror or republish the repository;
-4. provide the Software to unauthorized third parties;
-5. incorporate the Software into another product for distribution;
-6. create or distribute derivative works;
-7. remove or alter copyright, trademark, attribution, or proprietary notices;
-8. use the Software to create a competing operating system, platform, service, or product;
-9. use Brainyte Fortress or AfOS branding to imply endorsement or affiliation;
-10. distribute compiled binaries or device images derived from the Software without written authorization;
-11. circumvent technical, access-control, or security mechanisms protecting the Software;
-12. use confidential project information obtained through the Software or repository for unauthorized purposes.
+1. Sell, rent, lease, sublicense, or commercially distribute the Software;
+2. Publish or redistribute the source code;
+3. Mirror or republish the repository;
+4. Provide the Software to unauthorized third parties;
+5. Incorporate the Software into another product for distribution;
+6. Create or distribute derivative works;
+7. Remove or alter copyright, trademark, attribution, or proprietary notices;
+8. Use the Software to create a competing operating system, platform, service, or product;
+9. Use Brainyte Fortress or AfOS branding to imply endorsement or affiliation;
+10. Distribute compiled binaries or device images derived from the Software without written authorization;
+11. Circumvent technical, access-control, or security mechanisms protecting the Software;
+12. Use confidential project information obtained through the Software or repository for unauthorized purposes.
 
 ---
 
@@ -92,7 +92,6 @@ Nothing in this License grants Wells Interactive ownership of third-party softwa
 ### 4.5 License and Notice Preservation
 
 Users and redistributors must preserve applicable copyright notices, license notices, attribution requirements, and other notices required by the licenses governing AOSP and third-party components.
-
 A separate third-party license notice or attribution file may be maintained within the repository where appropriate.
 
 ### 4.6 No Re-Licensing of AOSP
@@ -121,7 +120,7 @@ Unless a separate written contributor agreement states otherwise, submission of 
 Contributors must have the necessary rights to submit their contributions.
 
 Wells Interactive may require a separate Contributor License Agreement or written assignment before accepting contributions into production releases.
-
+Contributors  are  therefore required  to record and comment on their contributions.
 ---
 
 ## 6. Confidentiality
@@ -249,8 +248,10 @@ AfOS Android
 GitHub:  
 https://github.com/Wells-Interactive
 
-Repository:  
+Afos Repository:  
 https://github.com/Wells-Interactive/brainyte-AfOS
+
+Fortress https://github.com/Wells-Interactive/brainyte-fortress
 
 ---
 
