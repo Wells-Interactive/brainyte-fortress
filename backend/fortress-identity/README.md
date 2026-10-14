@@ -27,17 +27,7 @@ backend/fortress-identity/
 ├── apps/        # zaqen-server, zaqen-worker
 ├── migrations/  # PostgreSQL schema migrations
 └── docs/        # identity-specific design notes
-```
-
-Do not create a crate until it has a defined responsibility and an owner
-
-## Boundaries
-
-- Fortress Cloud and Fortress Admin consume Identity through API contracts only.
-- No administrative authorization decisions are owned here; Identity supplies
-  the subject and its claims.
-- No AfOS code. AfOS is a separate repository and an integration boundary only.
-- Secrets are never stored here and never committed.
+```s
 
 ## Language
 

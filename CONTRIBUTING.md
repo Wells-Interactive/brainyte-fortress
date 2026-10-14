@@ -30,9 +30,6 @@ The AOSP workspace may contain multiple independent Git repositories.
 
 Do **not** assume that the entire `aosp/` directory is a single Git repository.
 
-Before changing code, identify the repository and component that owns the files you intend to modify.
-
-Use the appropriate `repo` and Git commands to inspect the workspace and repository status.
 
 ### AfOS contributions may require additional review
 
@@ -86,53 +83,12 @@ Keep the branch focused on one logical change whenever possible.
 
 The `main` branch is protected.
 
-Contributors **must not directly push changes to `main`**.
+Contributors **cannot directly push changes to `main`**.
 
 Changes must go through a **Pull Request (PR)** and satisfy the repository's protection requirements.
 
-The protected `main` branch requires:
-
-* **Pull Request before merging**
-* **At least 1 required approval**
-* **Stale approvals dismissed when new commits are pushed**
-* **Required status checks to pass**
-* **Branch to be up to date before merging**
-* **All review conversations resolved**
-* **Force pushes blocked**
-* **Branch deletion blocked**
-
-These protections exist to prevent accidental or unreviewed changes from entering the main development branch.
-
 ---
 
-## 🔍 Pull Request Requirements
-
-Before submitting a Pull Request:
-
-1. Make sure your branch contains only the intended changes.
-2. Test the changes.
-3. Review the changes yourself.
-4. Check for accidental secrets or sensitive information.
-5. Update relevant documentation.
-6. Explain what changed and why.
-7. Explain how the changes were tested.
-8. Identify any security, compatibility, or architectural implications.
-
-A Pull Request should clearly communicate:
-
-```text
-What changed?
-      ↓
-Why was it changed?
-      ↓
-What was tested?
-      ↓
-What could be affected?
-      ↓
-Are there security implications?
-```
-
----
 
 ## 🧪 Testing
 
@@ -214,6 +170,5 @@ How is it configured?
 How is it tested?
 
 ---
-
 
 
